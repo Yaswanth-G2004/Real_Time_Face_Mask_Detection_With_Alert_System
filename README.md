@@ -46,18 +46,19 @@ pip install playsound
 
 ## 🔊 Alert System
 
-- When a person is **not wearing a mask**, an audio alert (`alert.mp3`) will play.
-- You can replace `alert.mp3` with any custom sound.
+- When a person is **not wearing a mask**, an audio alert (`mixkit-appliance-ready-beep-1076`) will play.
+- You can replace `mixkit-appliance-ready-beep-1076` with any custom sound.
 
 ## 📌 Model
 
 This project uses a pre-trained classification model (`mask_detector.model`) trained on the Kaggle Face Mask Detection Dataset.
 
-## 🎓 Author
+## 👨‍💻 Author
 
 **Garikipati Yaswanth**  
-B.Tech CSE | 3rd Year  
-[GitHub Profile](https://github.com/Yaswanth-G2004)
+📧 Email: garikipatiyaswanth2004@gmail.com  
+🔗 [GitHub](https://github.com/Yaswanth-G2004)  
+🔗 [LinkedIn](https://www.linkedin.com/in/yaswanth-garikipati-516821288)
 
 ## 📄 License
 
