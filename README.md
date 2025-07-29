@@ -2,6 +2,10 @@
 
 A real-time face mask detection system using a pre-trained deep learning model. It detects whether a person is wearing a mask or not through the webcam and plays an audio alert if no mask is detected.
 
+## 📂 Dataset
+
+Used the open-source [Face Mask Detection Dataset](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection) from Kaggle. It contains images of people with and without masks.
+
 ## 🚀 Features
 
 - Real-time webcam feed detection  
