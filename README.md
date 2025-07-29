@@ -2,9 +2,21 @@
 
 A real-time face mask detection system using a pre-trained deep learning model. It detects whether a person is wearing a mask or not through the webcam and plays an audio alert if no mask is detected.
 
-## 📂 Dataset
+## 🔍 About the Project
 
-Used the open-source [Face Mask Detection Dataset](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection) from Kaggle. It contains images of people with and without masks.
+The main objective of this project is to build a real-time system that:
+- Detects faces from a live webcam feed.
+- Classifies each detected face as **"Mask"** or **"No Mask"**.
+- Plays an **alert sound** when a person is **not wearing a mask**.
+
+This solution is ideal for use at entrances of offices, public places, or events where monitoring mask compliance is required.
+
+## 📂 Dataset Used
+
+We used the **Face Mask Detection dataset** by [Andrew Mvd on Kaggle](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection), which includes:
+- Images with people wearing masks
+- Images with people not wearing masks
+
 
 ## 🚀 Features
 
@@ -31,14 +43,6 @@ pip install keras
 pip install numpy
 pip install playsound
 ```
-
-## ▶️ How to Use
-
-```bash
-python detect_mask_video.py
-```
-
-Make sure your webcam is connected.
 
 ## 🔊 Alert System
 
